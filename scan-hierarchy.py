@@ -1,5 +1,5 @@
 import os
-from config import folder_path
+from config import folder_path, output_file
 
 def count_files(folder_path):
     folder_info = {}  # Dictionary to store folder names and file counts
@@ -35,8 +35,6 @@ def write_to_file(folder_info, output_file):
 
 if __name__ == "__main__":
     folder_info = count_files(folder_path)
-    
-    output_file = "folder_hierarchy.txt"  # Output file name
     write_to_file(folder_info, output_file)
 
     print("Folder hierarchy written to", output_file)
