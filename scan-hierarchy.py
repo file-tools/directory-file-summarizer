@@ -1,5 +1,11 @@
 import os
-from config import folder_path, output_file
+
+# Try to import configuration from config.py
+try:
+    from config import folder_path, output_file
+except ImportError:
+    print("Configuration not found. Make sure you have a valid config.py.")
+    exit(1)
 
 def count_files(folder_path):
     folder_info = {}  # Dictionary to store folder names and file counts
@@ -24,7 +30,7 @@ def count_files(folder_path):
 def write_to_file(folder_info, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for folder, (file_count, dir_count, level) in sorted(folder_info.items()):
-            indentation = '  ' * level  # Indent according to folder depth
+            indentation = '↳   ' * level  # Use "↳   " Unicode element for indentation
             
             if dir_count > 0:
                 folder_line = f"{indentation}{os.path.basename(folder)} ({dir_count} folders, {file_count} files)"
