@@ -24,7 +24,7 @@ def count_files(folder_path):
 def write_to_file(folder_info, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for folder, (file_count, dir_count, level) in sorted(folder_info.items()):
-            indentation = '  ' * (level - 1) if level > 1 else ''  # Indent for subfolders
+            indentation = '  ' * level  # Indent according to folder depth
             
             if dir_count > 0:
                 folder_line = f"{indentation}{os.path.basename(folder)} ({dir_count} folders, {file_count} files)"
