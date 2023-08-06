@@ -1,4 +1,5 @@
 import os
+from config import folder_path, output_file
 
 def count_files(folder_path):
     folder_info = {}  # Dictionary to store folder names and file counts
@@ -29,11 +30,7 @@ def write_to_file(folder_info, output_file):
                 f.write(f"{folder_name} ({file_count} files)\n")
 
 if __name__ == "__main__":
-    folder_path = "/Users/Reess/Desktop/TestFoldertoScan/"
-    output_file = "/Users/Reess/Desktop/TestFoldertoScan/folder_info.txt"
-
     folder_info = count_files(folder_path)
     write_to_file(folder_info, output_file)
 
     print("Folder information written to", output_file)
-
