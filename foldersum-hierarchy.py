@@ -2,7 +2,7 @@ import os
 
 # Try to import configuration from config.py
 try:
-    from config import folder_path, output_file, indentation, space_d0, space_d1, space_d2, space_d3
+    from config.config import folder_path, output_file, indentation, space_d0, space_d1, space_d2, space_d3
 except ImportError:
     print("Configuration not found. Make sure you have a valid config.py.")
     exit(1)
