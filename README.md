@@ -3,6 +3,11 @@
 ## What ⚡
 This script will create a text file that contains the names of all the folders inside a folder path and the number of files and folder inside these folders. 
 
+| Dir | to | Dir Sum |
+|-----------|-----------|-----------|
+| ![Directory](https://drive.google.com/thumbnail?id=1Q8sp315z3QHwq95FGAMiTIbrxanWc21G&sz=s200) | ![Convert](https://drive.google.com/thumbnail?id=1rCdqG_aHwvMUZDZU1RKK9WNH_ck0oR3P&sz=s150) | ![Summary](https://drive.google.com/thumbnail?id=180kLHm_hsT5JSQVtGma4Gd9_Hio8-3lV&sz=s200) |
+
+
 ## Why 🤷‍♂️
 If you don't use a DAM and instead categorize lots of "stuff" into folders and then sub-folders, it can become difficult to know what you have. Databases and notes apps like Evernote or Bear or Apple Notes are nice because they can be programmed to just show you how much stuff you have all the time and how many items you in each category but file-system storage systems don't quickly have this reporting. This allows you to quickly get this report. 
 
