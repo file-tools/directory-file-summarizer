@@ -5,7 +5,7 @@ This script will create a text file that contains the names of all the folders i
 
 | Dir | to | Dir Sum |
 |-----------|-----------|-----------|
-| ![Directory](https://drive.google.com/thumbnail?id=1Q8sp315z3QHwq95FGAMiTIbrxanWc21G&sz=s200) | ![Convert](https://drive.google.com/thumbnail?id=1rCdqG_aHwvMUZDZU1RKK9WNH_ck0oR3P&sz=s150) | ![Summary](https://drive.google.com/thumbnail?id=180kLHm_hsT5JSQVtGma4Gd9_Hio8-3lV&sz=s200) |
+| ![Directory](https://drive.google.com/thumbnail?id=1Q8sp315z3QHwq95FGAMiTIbrxanWc21G&sz=s100) | ![Convert](https://drive.google.com/thumbnail?id=1rCdqG_aHwvMUZDZU1RKK9WNH_ck0oR3P&sz=s100) | ![Summary](https://drive.google.com/thumbnail?id=180kLHm_hsT5JSQVtGma4Gd9_Hio8-3lV&sz=s100) |
 
 
 ## Why 🤷‍♂️
